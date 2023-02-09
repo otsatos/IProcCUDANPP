@@ -17,3 +17,9 @@
 #include <nppi.h>
 #include <npp.h>
 #include <nppi_geometry_transforms.h>
+
+#ifdef _WIN32
+    #include"wtime.h"
+#else
+    #include <sys/time.h>
+#endif
