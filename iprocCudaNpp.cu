@@ -62,7 +62,7 @@ int opencvGrayscale(std::string flocation)
     #endif   
     int timeeaplsed=twatchend();     
     cv::imwrite(outfolderopencv+fname,grayimg);
-    std::cout << "Image size in bytes "<<fname <<" Source:"<< srcimg.step[0] * srcimg.rows<<" OpenCV Gray:" << grayimg.step[0] * grayimg.rows << " Time elapsed:" << timeeaplsed;
+    std::cout << "Image size in bytes "<<fname <<" Source:"<< srcimg.step[0] * srcimg.rows<<" OpenCV Gray:" << grayimg.step[0] * grayimg.rows << " Elapsed Time:" << timeeaplsed;
 
     return timeeaplsed;
 }
@@ -109,7 +109,7 @@ int convertToGrayCuda(std::string flocation)
     #endif
 
     cv::imwrite(outfoldercudanpp+fname,outimghost);    
-    std::cout <<" CUDA Gray:" << outimghost.step[0] * outimghost.rows << " Time elapsed:" << timeeaplsed;
+    std::cout <<" CUDA Gray:" << outimghost.step[0] * outimghost.rows << " Elapsed Time:" << timeeaplsed;
     
     return timeeaplsed;
 }
@@ -136,14 +136,12 @@ int main(int argc, char *argv[])
 {
   findCudaDevice(argc, (const char **)argv);
   
-  if (printNPPinfo(argc, argv) == false)
-  {
-      exit(EXIT_SUCCESS);
-  }
-
+  if (printNPPinfo(argc, argv) == false) exit(EXIT_SUCCESS);
+ 
   long ttotalOpencv=0,ttotalCudanpp=0;  
   auto fnames = srcImagesFilenames(); 
   std::cout.imbue(std::locale(""));
+  std::cout <<"---------------------------------------------------------\n";
   for(int i=0;i<fnames.size();i++)
   {         
      std::string fn(fnames[i]); 
@@ -153,8 +151,8 @@ int main(int argc, char *argv[])
      std::cout << "\n";     
   }
   std::cout <<"---------------------------------------------------------\n";
-  std::cout<< "Total elapsed time with OPNCV library: " << ttotalOpencv<<"\n";
-  std::cout<< "Total elapsed time with CUDA NPP library: " << ttotalCudanpp<<"\n";
+  std::cout<< "Total Elapsed Time using OPNCV library: " << ttotalOpencv<<"\n";
+  std::cout<< "Total Elapsed Time using CUDA NPP library: " << ttotalCudanpp<<"\n";
 
   return 0;
 }
