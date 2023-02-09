@@ -8,7 +8,7 @@ OpenCV Library is used to perform IO operations and applying identical Image pro
 The application may print information about processing time in both libraries with no intentions to make comparisons but as a starting point to explore further and to optimize the code in the future.
 
 ## Code Organization
-```bin/```
+```bin/```  
 This folder contains the binary code that manually is copied from the build tree folder.
 
 ```images/```
