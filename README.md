@@ -1,18 +1,22 @@
 # CUDA at Scale Independent Project 
-This is a template for the course project for the CUDA at Scale for the Enterprise
+An attempt to perform some basic Image Processing operations utilizing the CUDA NPP Library.
 ## Project Description
-This 
-Image Processing using CUDA NPP Library
-...
-## Project Description
-Beyond just being a template for course members, this project can be used by non-course members as the general structure for CUDA projects.
+The main goal of this project is to create an application that can perform image processing on a large amount of data (100s of small images). 
+In this project we use both CUDA API and NVIDIA NPP Library that gives us direct access to the GPU's parallel computational elements.
+OpenCV Library is used to perform IO operations and applying identical Image processing algorithms as a way to validate cCUDA NPP output.
+
+The application may print information about processing time in both libraries with no intentions to make comparisons but as a starting point to explore further and to optimize the code in the future.
 
 ## Code Organization
 ```bin/```
-This folder should hold all binary/executable code that is built automatically or manually. Executable code should have use the .exe extension or programming language-specific extension.
+This folder contains the binary code that manually is copied from the build tree folder.
 
-```data/```
-This folder should hold all example data in any format. If the original data is rather large or can be brought in via scripts, this can be left blank in the respository, so that it doesn't require major downloads when all that is desired is the code/structure.
+```images/```
+        ```src/```
+        ```output/```
+                ```cudanp/```
+                ```opencv/```
+This folder contains all the sample data are use by the application
 
 ```lib/```
 Any libraries that are not installed via the Operating System-specific package manager should be placed here, so that it is easier for inclusion/linking.
