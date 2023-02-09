@@ -12,10 +12,10 @@ The application may print information about processing time in both libraries wi
 This folder contains the binary code that manually is copied from the build tree folder.
 
 ```images/``` :Images root folder      
-         ```src/``` : Source Images Folder   
-         ```output/```  : Output Images base folder  
-                  ```cudanp/```  : CUDA output images
-                  ```opencv/```  : OPEN CV output images
+.........```src/``` : Source Images Folder   
+.........```output/```  : Output Images base folder  
+..................```cudanp/```  : CUDA output images
+..................```opencv/```  : OPEN CV output images
 This folder contains all the sample data are use by the application
 
 ```lib/```
