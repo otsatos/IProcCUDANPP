@@ -12,7 +12,7 @@ The application may print information about processing time in both libraries wi
 This folder contains the binary code that manually is copied from the build tree folder.
 
 ```images/```
-        ```src/```
+.........```src/```
         ```output/```
                 ```cudanp/```
                 ```opencv/```
