@@ -1,17 +1,17 @@
 # CUDA at Scale Independent Project 
-An attempt to perform some basic Image Processing operations utilizing the CUDA NPP Library.
+An attempt to perform basic Image Processing operations utilizing the CUDA NPP Library.
 ## Project Description
-The main goal of this project is to create an application that can perform image processing on a large amount of data (100s of small images). 
-In this project we use both CUDA API and NVIDIA NPP Library that gives us direct access to the GPU's parallel computational elements.
-OpenCV Library is used here to perform IO operations and to apply identical Image processing algorithms as a way to validate CUDA NPP output.
+The main goal of this project is to create an application that can perform image processing on a large amount of data (100s of small images).
+In this project, we use the CUDA API and the NVIDIA NPP Library, which both give us direct access to the GPU's parallel computational elements.
+The OpenCV Library is used here to perform IO operations and to apply identical image processing algorithms as a way to validate CUDA NPP output.
 
-The application prints out information about processing time in both libraries with no intentions to make comparisons but as a starting point to explore further and to optimize our code in the future.
+The application prints out information about processing time in both libraries with no intention to make comparisons but as a starting point to explore further and optimize our code in the future.
 
-Below the main steps are described for RGB image to gray conversion by CUDA.
-The application initially scans the ```./images/src/``` folder for images in a jpg or png format.
-For every image in the dataset, OpenCV  ```cv::imread``` function is called that loads the image into a ```cv::Mat``` host memory object using the file path specified by the first argument. The second argument ```cv::IMREAD_COLOR``` specifies the BGR 8-bit format we want the image in the host memory(this is the order of RGB color schema images are decoded by OpenCV). 
-```OpenCV cv::Mat``` object offers two important properties that are usefull in our application.
-```cv::Mat::total()``` Returns the total number of pixels.
+The core function of this program is to convert RGB images to grayscale with the CUDA NPP library and below the main elements of the library being used  
+
+- The application initially scans the ```./images/src/``` folder for images in a JPG or PNG format. For every image in the dataset, OpenCV  ```cv::imread``` function is called that loads the image into a ```cv::Mat``` host memory object using the file path specified by the first argument. The second argument ```cv::IMREAD_COLOR``` specifies the BGR 8-bit format we want the image in the host memory(this is the order of RGB color schema images are decoded by OpenCV). 
+- ```OpenCV cv::Mat``` object offers two important properties that are usefull in our application.
+  - ```cv::Mat::total()``` Returns the total number of pixels.
 ```cv::Mat::elemSize()``` Returns the size in bytes of each matrix element that is the pixel in or case.
 
 cudaMalloc is used to allocate device memory for the the 3-channeled original image and the output one-channeled grey image, both of NPP::Bpp8u type.
