@@ -27,7 +27,7 @@ In a Linux command prompt, type the name of the binary file. We assume that our 
 
 This is a part of the output of the application 
 
-> GPU Device 0: "Volta" with compute capability 7.0 
+> GPU Device 0: Volta with compute capability 7.0 
    NPP Library Version 11.3.3 
    CUDA Driver  Version: 11.6 
    CUDA Runtime Version: 11.3 
