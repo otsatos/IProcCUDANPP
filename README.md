@@ -7,7 +7,7 @@ The OpenCV Library is used here to perform IO operations and to apply identical 
 
 The application prints out information about processing time in both libraries with no intention to make comparisons but as a starting point to explore further and optimize our code in the future.
 
-The core function of this program is to convert RGB images to grayscale with the CUDA NPP library. Here is an overview of the main steps of the workflow and the main elements of the library being used.
+The core function of this program is to convert RGB images to grayscale with the CUDA NPP library. Here is an overview of the workflow's main steps and the key elements of the library being used.
 
 - The application initially scans the ```./images/src/``` folder for images in JPG or PNG format. For every image in the dataset, OpenCV 's ```cv::imread``` function is called, which loads the image into a ```cv::Mat``` host memory object using the file path specified by the first argument. The second argument, ```cv::IMREAD_COLOR```, specifies the BGR 8-bit format we want the image in the host memory (this is the order RGB color schema images are decoded by OpenCV). 
 - ```OpenCV cv::Mat``` object offers two important properties that are useful in our application:
@@ -27,10 +27,10 @@ The core function of this program is to convert RGB images to grayscale with the
 - ```bin/``` folder contains the binary code file ```iproccudanpp``` and ```images``` folder.
 
 - ```bin/images/``` : images root folder      
-  - ........................```src/``` : Source Images Folder   
-  - ........................```output/```  : Output Images base folder  
-  - ......................................```cudanp/```  : CUDA output images  
-  - ......................................```opencv/```  : OPEN CV output images  
+  - ```src/``` : Source Images Folder   
+    - ```output/```  : Output Images base folder  
+      - ```cudanp/```  : CUDA output images  
+      - ```opencv/```  : OPEN CV output images  
 
 - ```src/``` folder contains the source where *.cu/*.h c++ code files are palced.
 - ```build``` is the build tree required by Cmake tools.
