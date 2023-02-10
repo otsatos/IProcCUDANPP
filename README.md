@@ -17,7 +17,7 @@ The core function of this program is to convert RGB images to grayscale with the
 - ```cudaMalloc``` is used to allocate device memory for the the 3-channeled original image and the output one-channeled grey image, both of ```NPP::Bpp8u``` type.
 - ```cudaMemcpy``` function copies array elements from the host source image object to the Cuda device source image object.
 
-- ```nppiColorToGray_8u_C3C1R``` ```nppiColorToGray_8u_C3C1R``` Cuda function is called for conversion from RGB to a single gray color channel. A special 3-element array of type ```Npp32f``` is used to pass conversion coefficients.
+- ```nppiColorToGray_8u_C3C1R``` Cuda function is called for conversion from RGB to a single gray color channel. A special 3-element array of type ```Npp32f``` is used to pass conversion coefficients.
 
 - At the final step, ```cudaMemcpy``` copies the device output image to the host allocated ```cv::Mat``` output image.
 
