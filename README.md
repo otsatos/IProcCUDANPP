@@ -44,7 +44,7 @@ This is a part of the output of the application
 > Total Elapsed Time using CUDA NPP library: 1,319,489  
 >  
   
-This is a sample image converted from RGB to grayscale   
+This is a sample image converted from RGB to grayscale.   
 
 ![Original image](/docs/IMG_4205_original_small.JPG "Original Image")  
   
@@ -52,12 +52,12 @@ This is a sample image converted from RGB to grayscale
 
 
 ## Code Organization
-- ```bin/``` folder contains the binary code file ```iproccudanpp``` and ```images``` folder.
-  - ```bin/images/``` : images root folder      
-  - ```src/``` : Source Images Folder   
-    - ```output/```  : Output Images base folder  
-      - ```cudanp/```  : CUDA output images  
-      - ```opencv/```  : OPEN CV output images  
+- ```bin/``` folder contains the binary code file ```iproccudanpp``` and ```images``` folder.  
+  - ```bin/images/``` is images root folder.   
+  - ```src/``` folder should have the original dataset before running the application.  
+    - ```output/```  is the images output  base folder.  
+      - ```cudanp/```  is CUDA output images folder.  
+      - ```opencv/```  is OPEN CV output images folder.  
 
 - ```src/``` folder contains the source code where *.cu/*.h files are placed.
 - ```build``` is the build tree folder used by CMake tools. The code provided was successfully compiled on a Linux system.  
