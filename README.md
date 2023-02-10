@@ -31,7 +31,7 @@ This is a part of the output of the application
 > NPP Library Version 11.3.3 
 >  CUDA Driver  Version: 11.6 
 >  CUDA Runtime Version: 11.3 
->  Device 0: <           Volta >, Compute SM 7.0 detected 
+>  Device 0: Volta, Compute SM 7.0 detected 
 > --------------------------------------------------------- 
 > Image size in bytes IMG_1776.JPG Source:36,578,304 Gray:12,192,768 Elapsed Time:178,882 
 > Image size in bytes IMG_2030.JPG Source:36,578,304 Gray:12,192,768 Elapsed Time:11,625 
@@ -44,7 +44,8 @@ This is a part of the output of the application
 
 This is a sample image converted from RGB to grayscale 
 ![Original image](/docs/IMG_4205_original_small.JPG "Original Image") 
-![Grayscale image](/docs/IMG_4205_original_small.JPG "Grayscale Image") 
+
+![Grayscale image](/docs/IMG_4205_gray_small.JPG "Grayscale Image") 
 
 
 ## Code Organization
