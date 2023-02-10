@@ -5,7 +5,7 @@ The main goal of this project is to create an application that can perform image
 In this project, we use the **CUDA API** and the **NVIDIA NPP** Library, which both give us direct access to the GPU's parallel computational elements.
 The **OpenCV** Library is used here to perform IO operations and to apply identical image processing algorithms as a way to validate CUDA NPP output.
 
-The application prints out information about processing time in both libraries with no intention to make comparisons but as a starting point to explore further and optimize our code in the future.
+The application prints out information about processing time in both libraries with no intention to make comparisons, as this project serves as a starting point to explore further and optimize our code in the future.
 
 The core function of this program is to convert RGB images to grayscale with the **CUDA NPP** library. Here is an overview of the workflow's main steps and the key elements of the library being used.
 
