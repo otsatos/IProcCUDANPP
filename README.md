@@ -1,4 +1,4 @@
-# CUDA at Scale Independent Project 
+# CUDA at Scale 
 An attempt to perform basic Image Processing operations utilizing the CUDA NPP Library.
 ## Project Description
 The main goal of this project is to create an application that can perform image processing on a large amount of data (100s of small images).
