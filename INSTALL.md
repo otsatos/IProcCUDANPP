@@ -4,7 +4,7 @@
 This document provides information about installing this software and its dependencies.
 
 ## Software installation
-Once the code for the project is built, place the binary file into the ```bin``` folder. Note that bin folder can be created in the filesystem at your preference.
+Once the code for the project is built, place the binary file into the ```bin``` folder. Note that the ```bin``` folder can be created in the filesystem according to your preference.
 In the same ```bin``` folder, directory ```images``` must be created following this structure.
 - ```bin/images/``` is images root folder.  
   - ```src/```  folder should have the original dataset before running the application.  
