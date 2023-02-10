@@ -22,9 +22,30 @@ The core function of this program is to convert RGB images to grayscale with the
 - At the final step, ```cudaMemcpy``` copies the device output image to the host allocated ```cv::Mat``` output image.
 
 ## Code Execution
+In a Linux command prompt, type the name of the binary file. We assume that our current folder is the ```$application folder/bin```.  
+> ./iproccudanpp
+
+This is a part of the output of the application 
+GPU Device 0: "Volta" with compute capability 7.0
+
+>NPP Library Version 11.3.3
+>  CUDA Driver  Version: 11.6
+>  CUDA Runtime Version: 11.3
+>  Device 0: <           Volta >, Compute SM 7.0 detected
+>---------------------------------------------------------
+>Image size in bytes IMG_1776.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:90,387 CUDA Gray:12,192,768 Elapsed Time:178,882
+>Image size in bytes IMG_2030.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,063 CUDA Gray:12,192,768 Elapsed Time:11,625
+>Image size in bytes IMG_6663.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,016 CUDA Gray:12,192,768 Elapsed Time:26,459
+>Image size in bytes IMG_6267.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,707 CUDA Gray:12,192,768 Elapsed Time:11,635
+>...
+>Image size in bytes IMG_6662.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,977 CUDA Gray:12,192,768 Elapsed Time:11,754
+>---------------------------------------------------------
+>Total Elapsed Time using OPNCV library: 403,964
+>Total Elapsed Time using CUDA NPP library: 1,319,489
+
 This is a sample image converted from RGB to grayscale
-![Original image](/docs/IMG_4205.JPG "Original Image")
-[Grayscale image](/docs/IMG_4205_Gray.JPG "Grayscale Image")
+![Original image](/docs/IMG_4205_original_small.JPG "Original Image")
+![Grayscale image](/docs/IMG_4205_original_small.JPG "Grayscale Image")
 
 
 ## Code Organization
