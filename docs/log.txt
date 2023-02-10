@@ -1,0 +1,111 @@
+GPU Device 0: "Volta" with compute capability 7.0
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 11.6
+  CUDA Runtime Version: 11.3
+  Device 0: <           Volta >, Compute SM 7.0 detected
+---------------------------------------------------------
+Image size in bytes IMG_1776.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:152,179 CUDA Gray:12,192,768 Elapsed Time:186,103
+Image size in bytes IMG_2030.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,207 CUDA Gray:12,192,768 Elapsed Time:11,690
+Image size in bytes IMG_6663.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,212 CUDA Gray:12,192,768 Elapsed Time:11,859
+Image size in bytes IMG_6267.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:4,712 CUDA Gray:12,192,768 Elapsed Time:12,025
+Image size in bytes IMG_4188.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,436 CUDA Gray:12,192,768 Elapsed Time:11,785
+Image size in bytes IMG_6285.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,037 CUDA Gray:12,192,768 Elapsed Time:11,500
+Image size in bytes INKJ2919.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,935 CUDA Gray:12,192,768 Elapsed Time:11,907
+Image size in bytes IMG_6555.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,319 CUDA Gray:12,192,768 Elapsed Time:11,930
+Image size in bytes IMG_6339.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,089 CUDA Gray:12,192,768 Elapsed Time:11,953
+Image size in bytes IMG_3703.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,392 CUDA Gray:12,192,768 Elapsed Time:16,018
+Image size in bytes IMG_5008.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,092 CUDA Gray:12,192,768 Elapsed Time:12,053
+Image size in bytes IMG_0922.JPG Source:3,686,400 OpenCV Gray:1,228,800 Elapsed Time:381 CUDA Gray:1,228,800 Elapsed Time:2,582
+Image size in bytes IMG_6340.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,986 CUDA Gray:12,192,768 Elapsed Time:11,854
+Image size in bytes IMG_4212.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,212 CUDA Gray:12,192,768 Elapsed Time:11,860
+Image size in bytes IMG_4230.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,515 CUDA Gray:12,192,768 Elapsed Time:11,672
+Image size in bytes IMG_5749.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,371 CUDA Gray:12,192,768 Elapsed Time:11,601
+Image size in bytes IMG_5668.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,439 CUDA Gray:12,192,768 Elapsed Time:11,777
+Image size in bytes IMG_0917.JPG Source:3,686,400 OpenCV Gray:1,228,800 Elapsed Time:376 CUDA Gray:1,228,800 Elapsed Time:2,623
+Image size in bytes IMG_2492.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,444 CUDA Gray:12,192,768 Elapsed Time:11,619
+Image size in bytes IMG_1763.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,352 CUDA Gray:12,192,768 Elapsed Time:13,978
+Image size in bytes IMG_5750.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,060 CUDA Gray:12,192,768 Elapsed Time:11,905
+Image size in bytes IMG_4247.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,118 CUDA Gray:12,192,768 Elapsed Time:11,662
+Image size in bytes IMG_6182.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,441 CUDA Gray:12,192,768 Elapsed Time:11,924
+Image size in bytes IMG_6188.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,429 CUDA Gray:12,192,768 Elapsed Time:11,931
+Image size in bytes IMG_6647.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,221 CUDA Gray:12,192,768 Elapsed Time:11,801
+Image size in bytes IMG_5666.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,985 CUDA Gray:12,192,768 Elapsed Time:11,610
+Image size in bytes IMG_4955.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,071 CUDA Gray:12,192,768 Elapsed Time:11,534
+Image size in bytes IMG_4218.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,994 CUDA Gray:12,192,768 Elapsed Time:11,561
+Image size in bytes IMG_3705.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,375 CUDA Gray:12,192,768 Elapsed Time:12,332
+Image size in bytes IMG_6135.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,313 CUDA Gray:12,192,768 Elapsed Time:11,836
+Image size in bytes IMG_5631.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,073 CUDA Gray:12,192,768 Elapsed Time:11,802
+Image size in bytes IMG_4182.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:6,586 CUDA Gray:12,192,768 Elapsed Time:11,943
+Image size in bytes IMG_3714.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,089 CUDA Gray:12,192,768 Elapsed Time:11,849
+Image size in bytes IMG_4610.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,087 CUDA Gray:12,192,768 Elapsed Time:11,930
+Image size in bytes IMG_5697.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,062 CUDA Gray:12,192,768 Elapsed Time:12,118
+Image size in bytes IMG_4205.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,412 CUDA Gray:12,192,768 Elapsed Time:11,568
+Image size in bytes IMG_5886.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,144 CUDA Gray:12,192,768 Elapsed Time:11,599
+Image size in bytes IMG_6472.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,259 CUDA Gray:12,192,768 Elapsed Time:11,635
+Image size in bytes IMG_4205_small.JPG Source:378,000 OpenCV Gray:126,000 Elapsed Time:113 CUDA Gray:126,000 Elapsed Time:1,014
+Image size in bytes IMG_6355.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,071 CUDA Gray:12,192,768 Elapsed Time:11,593
+Image size in bytes IMG_4177.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,396 CUDA Gray:12,192,768 Elapsed Time:11,761
+Image size in bytes IMG_5752.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,326 CUDA Gray:12,192,768 Elapsed Time:12,023
+Image size in bytes IMG_5716.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,953 CUDA Gray:12,192,768 Elapsed Time:11,900
+Image size in bytes IMG_4186.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,333 CUDA Gray:12,192,768 Elapsed Time:11,590
+Image size in bytes IMG_5932.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,997 CUDA Gray:12,192,768 Elapsed Time:15,676
+Image size in bytes IMG_6661.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,098 CUDA Gray:12,192,768 Elapsed Time:11,598
+Image size in bytes IMG_4249.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,061 CUDA Gray:12,192,768 Elapsed Time:11,695
+Image size in bytes IMG_5734.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,368 CUDA Gray:12,192,768 Elapsed Time:11,861
+Image size in bytes IMG_6706.JPG Source:16,779,264 OpenCV Gray:5,593,088 Elapsed Time:2,964 CUDA Gray:5,593,088 Elapsed Time:6,408
+Image size in bytes IMG_6781.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,054 CUDA Gray:12,192,768 Elapsed Time:11,716
+Image size in bytes IMG_6286.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,379 CUDA Gray:12,192,768 Elapsed Time:12,009
+Image size in bytes IMG_1957.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,315 CUDA Gray:12,192,768 Elapsed Time:11,573
+Image size in bytes IMG_6916.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,015 CUDA Gray:12,192,768 Elapsed Time:11,758
+Image size in bytes IMG_6152.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,073 CUDA Gray:12,192,768 Elapsed Time:11,857
+Image size in bytes IMG_5009.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,197 CUDA Gray:12,192,768 Elapsed Time:11,904
+Image size in bytes IMG_4190.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,461 CUDA Gray:12,192,768 Elapsed Time:11,954
+Image size in bytes IMG_5630.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,091 CUDA Gray:12,192,768 Elapsed Time:11,854
+Image size in bytes IMG_3205.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,345 CUDA Gray:12,192,768 Elapsed Time:11,838
+Image size in bytes IMG_5939.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,387 CUDA Gray:12,192,768 Elapsed Time:11,725
+Image size in bytes IMG_6668.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,088 CUDA Gray:12,192,768 Elapsed Time:11,764
+Image size in bytes IMG_4213.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,354 CUDA Gray:12,192,768 Elapsed Time:11,676
+Image size in bytes IMG_1063.JPG Source:3,686,400 OpenCV Gray:1,228,800 Elapsed Time:790 CUDA Gray:1,228,800 Elapsed Time:2,607
+Image size in bytes IMG_2242.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,407 CUDA Gray:12,192,768 Elapsed Time:11,602
+Image size in bytes IMG_6354.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,037 CUDA Gray:12,192,768 Elapsed Time:11,887
+Image size in bytes IMG_5940.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,732 CUDA Gray:12,192,768 Elapsed Time:11,972
+Image size in bytes IMG_4176.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:6,729 CUDA Gray:12,192,768 Elapsed Time:12,082
+Image size in bytes IMG_5742.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,070 CUDA Gray:12,192,768 Elapsed Time:11,847
+Image size in bytes IMG_0891.JPG Source:3,686,400 OpenCV Gray:1,228,800 Elapsed Time:442 CUDA Gray:1,228,800 Elapsed Time:2,466
+Image size in bytes IMG_1764.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,038 CUDA Gray:12,192,768 Elapsed Time:11,711
+Image size in bytes IMG_6129.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,047 CUDA Gray:12,192,768 Elapsed Time:11,574
+Image size in bytes IMG_5733.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,118 CUDA Gray:12,192,768 Elapsed Time:11,747
+Image size in bytes IMG_6660.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,115 CUDA Gray:12,192,768 Elapsed Time:11,767
+Image size in bytes IMG_6189.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,094 CUDA Gray:12,192,768 Elapsed Time:11,739
+Image size in bytes IMG_6549.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,397 CUDA Gray:12,192,768 Elapsed Time:11,735
+Image size in bytes IMG_2679.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,040 CUDA Gray:12,192,768 Elapsed Time:11,588
+Image size in bytes IMG_4956.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,112 CUDA Gray:12,192,768 Elapsed Time:11,524
+Image size in bytes IMG_5766.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,235 CUDA Gray:12,192,768 Elapsed Time:11,528
+Image size in bytes IMG_6190.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,404 CUDA Gray:12,192,768 Elapsed Time:11,453
+Image size in bytes IMG_4219.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,162 CUDA Gray:12,192,768 Elapsed Time:11,861
+Image size in bytes IMG_6712.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,452 CUDA Gray:12,192,768 Elapsed Time:11,909
+Image size in bytes IMG_4192.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,431 CUDA Gray:12,192,768 Elapsed Time:11,920
+Image size in bytes IMG_3706.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,537 CUDA Gray:12,192,768 Elapsed Time:11,926
+Image size in bytes IMG_2374.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,268 CUDA Gray:12,192,768 Elapsed Time:11,866
+Image size in bytes IMG_4183.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,384 CUDA Gray:12,192,768 Elapsed Time:11,484
+Image size in bytes IMG_1357.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,008 CUDA Gray:12,192,768 Elapsed Time:11,896
+Image size in bytes IMG_5632.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,378 CUDA Gray:12,192,768 Elapsed Time:11,548
+Image size in bytes IMG_6802.JPG Source:5,760,000 OpenCV Gray:1,920,000 Elapsed Time:895 CUDA Gray:1,920,000 Elapsed Time:3,296
+Image size in bytes IMG_3715.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,023 CUDA Gray:12,192,768 Elapsed Time:11,348
+Image size in bytes IMG_6181.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,959 CUDA Gray:12,192,768 Elapsed Time:11,859
+Image size in bytes IMG_5698.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,157 CUDA Gray:12,192,768 Elapsed Time:11,713
+Image size in bytes IMG_3702.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:10,429 CUDA Gray:12,192,768 Elapsed Time:11,890
+Image size in bytes IMG_6697.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,308 CUDA Gray:12,192,768 Elapsed Time:11,594
+Image size in bytes IMG_5689.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,886 CUDA Gray:12,192,768 Elapsed Time:11,787
+Image size in bytes IMG_6914.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,486 CUDA Gray:12,192,768 Elapsed Time:11,909
+Image size in bytes IMG_6554.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,006 CUDA Gray:12,192,768 Elapsed Time:11,872
+Image size in bytes IMG_4187.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,552 CUDA Gray:12,192,768 Elapsed Time:11,662
+Image size in bytes IMG_1955.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,490 CUDA Gray:12,192,768 Elapsed Time:11,858
+Image size in bytes IMG_5753.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:2,994 CUDA Gray:12,192,768 Elapsed Time:11,780
+Image size in bytes IMG_5735.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,036 CUDA Gray:12,192,768 Elapsed Time:11,782
+Image size in bytes IMG_6266.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,033 CUDA Gray:12,192,768 Elapsed Time:11,605
+Image size in bytes IMG_6662.JPG Source:36,578,304 OpenCV Gray:12,192,768 Elapsed Time:3,422 CUDA Gray:12,192,768 Elapsed Time:11,750
+---------------------------------------------------------
+Total Elapsed Time using OPNCV library: 473,947
+Total Elapsed Time using CUDA NPP library: 1,312,620
