@@ -4,12 +4,12 @@ const std::string outfolderopencv="./images/output/opencv/";
 const std::string outfoldercudanpp="./images/output/cudanpp/";
 
 timeval tiStart;
-void twachstart()
+void twatchStart()
 {
     gettimeofday(&tiStart, 0);
 }
 
-int twatchend() {
+int twatchEnd() {
     timeval tiEnd;
     gettimeofday(&tiEnd, 0);
     int t = (tiEnd.tv_sec - tiStart.tv_sec) * 1000000 + tiEnd.tv_usec - tiStart.tv_usec;
@@ -52,7 +52,7 @@ int opencvGrayscale(std::string flocation)
     cv::Mat srcimg = cv::imread(flocation);
     cv::Mat grayimg;
 
-    twachstart();
+    twatchStart();
     cv::cvtColor(srcimg, grayimg, cv::COLOR_BGR2GRAY);
     
     #ifdef _WIN32 
@@ -60,7 +60,7 @@ int opencvGrayscale(std::string flocation)
     #else
        std::string fname = flocation.substr(flocation.find_last_of("/") + 1);  
     #endif   
-    int timeeaplsed=twatchend();     
+    int timeeaplsed=twatchEnd();     
     cv::imwrite(outfolderopencv+fname,grayimg);
     std::cout << "Image size in bytes "<<fname <<" Source:"<< srcimg.step[0] * srcimg.rows<<" OpenCV Gray:" << grayimg.step[0] * grayimg.rows << " Elapsed Time:" << timeeaplsed;
 
@@ -71,9 +71,9 @@ int convertToGrayCuda(std::string flocation)
 {    
     cv::Mat srcimg = cv::imread(flocation, cv::IMREAD_COLOR);
 
-    twachstart();
+    twatchStart();
 
-    Npp8u* srcimgdev,outimgdev;
+    Npp8u *srcimgdev,*outimgdev;
     
     cudaMalloc((void**)&srcimgdev, srcimg.total() * srcimg.elemSize());
     cudaMalloc((void**)&outimgdev, srcimg.total());
@@ -99,7 +99,7 @@ int convertToGrayCuda(std::string flocation)
     cudaFree(srcimgdev);
     cudaFree(outimgdev);
 
-    int timeeaplsed=twatchend(); 
+    int timeeaplsed=twatchEnd(); 
     
     // Save the grayscale image
     #ifdef _WIN32 
