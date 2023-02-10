@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/iproccudanpp.dir/iproccudanpp_generated_iprocCudaNpp.cu.o"
+  "CMakeFiles/iproccudanpp.dir/src/iproccudanpp_generated_iprocCudaNpp.cu.o"
   "iproccudanpp"
   "iproccudanpp.pdb"
 )

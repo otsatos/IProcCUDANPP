@@ -20,7 +20,7 @@ include_directories( "/home/coder/project/opencv/opencv2/include"
                      "/home/coder/project/Common/UtilNPP" 
                       )
 
-cuda_add_executable(iproccudanpp iprocCudaNpp.cu)
+cuda_add_executable(iproccudanpp ./src/iprocCudaNpp.cu)
 target_link_libraries( iproccudanpp  "/home/coder/project/opencv/opencv2/lib/libopencv_core.so" 
                                   "/home/coder/project/opencv/opencv2/lib/libopencv_imgcodecs.so" 
                                   "/home/coder/project/opencv/opencv2/lib/libopencv_highgui.so"

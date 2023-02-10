@@ -2,8 +2,8 @@
 SET(CUDA_NVCC_DEPEND
   "/home/coder/project/Common/helper_cuda.h"
  "/home/coder/project/Common/helper_string.h"
- "/home/coder/project/IProcCUDANPP/helper.h"
- "/home/coder/project/IProcCUDANPP/iprocCudaNpp.cu"
+ "/home/coder/project/IProcCUDANPP/src/helper.h"
+ "/home/coder/project/IProcCUDANPP/src/iprocCudaNpp.cu"
  "/home/coder/project/opencv/opencv2/include/opencv4/opencv2/calib3d.hpp"
  "/home/coder/project/opencv/opencv2/include/opencv4/opencv2/core.hpp"
  "/home/coder/project/opencv/opencv2/include/opencv4/opencv2/core/affine.hpp"
