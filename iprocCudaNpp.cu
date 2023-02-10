@@ -73,9 +73,9 @@ int convertToGrayCuda(std::string flocation)
 
     twachstart();
 
-    Npp8u* srcimgdev;
+    Npp8u* srcimgdev,outimgdev;
+    
     cudaMalloc((void**)&srcimgdev, srcimg.total() * srcimg.elemSize());
-    Npp8u* outimgdev;
     cudaMalloc((void**)&outimgdev, srcimg.total());
 
     //Copy from the host memory input image to the CUDA device memory object
