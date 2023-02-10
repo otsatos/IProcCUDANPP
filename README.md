@@ -21,6 +21,9 @@ The core function of this program is to convert RGB images to grayscale with the
 
 - At the final step, ```cudaMemcpy``` copies the device output image to the host allocated ```cv::Mat``` output image.
 
+## Code Execution
+[Original image](/docs/IMG_4205.JPG)
+[Grayscale image](/docs/IMG_4205_Gray.JPG)
 
 
 ## Code Organization
