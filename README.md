@@ -25,21 +25,16 @@ The core function of this program is to convert RGB images to grayscale with the
 
 ## Code Organization
 - ```bin/``` folder contains the binary code file ```iproccudanpp``` and ```images``` folder.
-
-- ```bin/images/``` : images root folder      
+  - ```bin/images/``` : images root folder      
   - ```src/``` : Source Images Folder   
     - ```output/```  : Output Images base folder  
       - ```cudanp/```  : CUDA output images  
       - ```opencv/```  : OPEN CV output images  
 
-- ```src/``` folder contains the source where *.cu/*.h c++ code files are palced.
-- ```build``` is the build tree required by Cmake tools.
+- ```src/``` folder contains the source where *.cu/*.h code files are placed.
+- ```build``` is the build tree required by Cmake tools. The code provided was successfully compiled on a linux system. 
 - ```docs``` folder is provided for documentation material and artifacts.
 
-- ```INSTALL``` file 
-This file should hold the human-readable set of instructions for installing the code so that it can be executed. If possible it should be organized around different operating systems, so that it can be done by as many people as possible with different constraints.
+- ```INSTALL.md``` file provides a human-readable set of instructions for installing the application along with ceratin information about prerequicities and possible dependencies.
 
-- ```CMakeLists.txt``` CMakeLists.txt file contains the directives and instructions for compiling and building the code by setting the compiler and c++ standard that is required, specific libraries, including directories etc. 
-
-## Prerequisites
-
+- ```CMakeLists.txt``` CMakeLists.txt file contains the directives and instructions for compiling and building the code by setting the compiler and c++ standard that is required, specific libraries, including directories etc. This file was created to compile and build the program on a Linux system. In order for this code to be compiled on a Windows system, references to the OPENCV and CUDA NPP libraries and include directories must be changed accordingly.
