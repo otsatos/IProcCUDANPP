@@ -22,7 +22,7 @@ The core function of this program is to convert RGB images to grayscale with the
 - At the final step, ```cudaMemcpy``` copies the device output image to the host allocated ```cv::Mat``` output image.
 
 ## Code Execution  
-In a Linux command prompt, type the name of the binary file. We assume that our current folder is the ```$application folder/bin```.  
+In a Linux command prompt, type the name of the binary file. We assume that  ```$application/bin``` is our current folder. 
 > ./iproccudanpp
 
 This is a part of the output of the application 
@@ -45,6 +45,7 @@ This is a part of the output of the application
 >  
   
 This is a sample image converted from RGB to grayscale   
+
 ![Original image](/docs/IMG_4205_original_small.JPG "Original Image")  
   
 ![Grayscale image](/docs/IMG_4205_gray_small.JPG "Grayscale Image")  
@@ -58,10 +59,10 @@ This is a sample image converted from RGB to grayscale
       - ```cudanp/```  : CUDA output images  
       - ```opencv/```  : OPEN CV output images  
 
-- ```src/``` folder contains the source where *.cu/*.h code files are placed.
-- ```build``` is the build tree required by Cmake tools. The code provided was successfully compiled on a linux system. 
+- ```src/``` folder contains the source code where *.cu/*.h files are placed.
+- ```build``` is the build tree folder used by CMake tools. The code provided was successfully compiled on a Linux system.  
 - ```docs``` folder is provided for documentation material and artifacts.
 
-- ```INSTALL.md``` file provides a human-readable set of instructions for installing the application along with ceratin information about prerequicities and possible dependencies.
+- ```INSTALL.md``` file provides a human-readable set of instructions for installing the application along with certain information about prerequisites and possible dependencies.  
 
-- ```CMakeLists.txt``` CMakeLists.txt file contains the directives and instructions for compiling and building the code by setting the compiler and c++ standard that is required, specific libraries, including directories etc. This file was created to compile and build the program on a Linux system. In order for this code to be compiled on a Windows system, references to the OPENCV and CUDA NPP libraries and include directories must be changed accordingly.
+- ```CMakeLists.txt``` file contains the directives and instructions for compiling and building the code by setting the compiler and c++ standard that is required, specific libraries and including directories among others. This file was created to compile and build the program on a Linux system. In order for this code to be compiled on a Windows system, references to the OPENCV and CUDA NPP libraries and include directories must be changed accordingly.
