@@ -36,11 +36,11 @@ This is a part of the output of the application
 > --------------------------------------------------------- 
 >
 > Image size in bytes IMG_1776.JPG Source:36,578,304 ... Elapsed Time:178,882 
-  Image size in bytes IMG_2030.JPG Source:36,578,304 ... Elapsed Time:11,625 
-  Image size in bytes IMG_6663.JPG Source:36,578,304 ... Elapsed Time:26,459 
-  Image size in bytes IMG_6267.JPG Source:36,578,304 ... Elapsed Time:11,635 
-  ...
-  Image size in bytes IMG_6662.JPG Source:36,578,304 ... Elapsed Time:11,754 
+> Image size in bytes IMG_2030.JPG Source:36,578,304 ... Elapsed Time:11,625 
+> Image size in bytes IMG_6663.JPG Source:36,578,304 ... Elapsed Time:26,459 
+> Image size in bytes IMG_6267.JPG Source:36,578,304 ... Elapsed Time:11,635 
+> ...
+> Image size in bytes IMG_6662.JPG Source:36,578,304 ... Elapsed Time:11,754 
 > --------------------------------------------------------- 
 >
 > Total Elapsed Time using CUDA NPP library: 1,319,489 
